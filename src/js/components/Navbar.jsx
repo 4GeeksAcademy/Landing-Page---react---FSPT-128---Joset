@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark navbar-stranger">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark navbar-stranger bg-transparent">
       <div className="container">
         <a className="navbar-brand text-danger" href="#">Hawkins News</a>
         <button
@@ -16,7 +16,7 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <div className="collapse navbar-collapse justify-content-end " id="navbarNav">
           <ul className="navbar-nav ms-auto text-lg-end text-end mb-2 mb-lg-0">
             <li className="nav-item active">
               <a className="nav-link text-danger" href="#">Portal Principal</a>

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer className="bg-dark text-white text-center py-4">
+        <footer className="bg-dark text-white text-center py-4 bg-transparent">
             <div className="container">
                 <p> <small>Copyright &copy; Hawkins Lab  {new Date().getFullYear()}</small></p> 
             </div>
