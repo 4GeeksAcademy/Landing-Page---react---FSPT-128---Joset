@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="bg-dark text-white text-center py-4 bg-transparent">
             <div className="container">
-                <p> <small>Copyright &copy; Hawkins Lab  {new Date().getFullYear()}</small></p> 
+                <p> <small>Copyright &copy; Hawkins Lab  {new Date().getFullYear()}</small>  Joset Santiago</p> 
             </div>
         </footer>
     );
